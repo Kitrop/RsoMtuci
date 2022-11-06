@@ -1,0 +1,110 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: #0d0a16;
+}
+.page {
+    min-height: 100%;
+    margin-bottom: -120px;
+}
+
+
+
+/*NAVBAR*/
+.navbar-font {
+    font-size: 1.2em;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*BANNER*/
+.banner {
+    height: 600px;
+    width: 100%;
+    background: url("public/mtuci.jpg") no-repeat center;
+}
+
+.banner-text {
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.7em;
+    padding-top: 14vh;
+    margin-left: 1vw;
+}
+
+.banner-text-text {
+    margin-top: 1vh;
+}
+.banner-text-text a{
+    text-decoration: none;
+    color: white;
+}
+.banner-text-text a:hover{
+    text-decoration: underline;
+}
+
+
+.banner-img {
+    width: 100%;
+}
+
+/*///////////*/
+/*background*/
+
+.sect {
+    /*background: url("./public/backgr1-02.svg") no-repeat center;*/
+    background: url("public/gl.png") no-repeat center;
+    background-size: 1920px auto;
+
+}
+@media screen and (max-width: 980px) {
+    .sect {
+        background: url("public/mobilka.jpg") no-repeat center;
+        background-size: auto auto;
+    }
+}
+
+
+
+/*/////////////////*/
+
+
+
+/*MAIN*/
+.img-main {
+    width: 100%;
+}
+
+
+.mainPhoto {
+    height: 90vh;
+    width: 100%;
+}
+
+
+
+/*FOOTER*/
+.footer {
+    height: 10vh;
+    color: white;
+    margin-top: auto;
+    background: rgb(37, 27, 78);
+    background: linear-gradient(351deg, rgba(37, 27, 78, 1) 0%, rgba(23, 16, 37, 1) 100%);
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-element {
+    margin-top: 25px;
+    margin-left: 25px;
+}
