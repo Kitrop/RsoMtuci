@@ -24,6 +24,9 @@ a {
     text-decoration: none;
 }
 
+/*//////////////////////////*/
+/*//////////////////////////*/
+
 /*BANNER*/
 .banner {
     height: 600px;
@@ -55,26 +58,37 @@ a {
     width: 100%;
 }
 
-/*///////////*/
-/*background*/
+/*//////////////////////////*/
+/*//////////////////////////*/
 
-.sect {
-    /*background: url("./public/backgr1-02.svg") no-repeat center;*/
-    background: url("public/gl.png") no-repeat center;
-    background-size: 1920px auto;
+/*BACKGROUND*/
 
-}
 @media screen and (max-width: 980px) {
-    .sect {
+    .slider-section {
         background: url("public/mobilka.jpg") no-repeat center;
         background-size: auto auto;
     }
 }
 
+.slider-section {
+    background: url("public/gl.png") no-repeat center;
+    background-size: 1920px auto;
+    color: white;
+    height: 500px;
+    margin-bottom: 150px;
+}
 
+.slider-div {
+    padding-top: 4vh;
+}
 
-/*/////////////////*/
-
+@media screen and (max-width: 980px) {
+    .banner-text {
+        padding-top: 6vh;
+    }
+}
+/*//////////////////////////*/
+/*//////////////////////////*/
 
 
 /*MAIN*/
@@ -87,12 +101,71 @@ a {
     height: 90vh;
     width: 100%;
 }
+/*//////////////////////////*/
+/*//////////////////////////*/
+
+/*ABOUT*/
+.about-rso-section {
+    height: 500px;
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.about-rso-div {
+    padding-top: 2vh;
+    color: white;
+}
+
+.about-row {
+    margin-right: 20vw;
+}
+
+.about-img {
+    height: 75%;
+}
+
+@media screen and (min-width: 400px) and (max-width: 980px) {
+    .about-row {
+        margin-right: 1vw;
+    }
+    .about-rso-section {
+        margin-bottom: 2vh;
+    }
+}
+
+@media screen and (min-width: 980px) and (max-width: 1400px){
+    .about-row {
+        margin-right: 0vw;
+    }
+}
+
+@media screen and (min-width: 14000px) {
+    .about-row {
+        margin-right: 13vw;
+    }
+}
+/*//////////////////////////*/
+/*//////////////////////////*/
 
 
+/*GROUPS*/
+
+
+.groups {
+    color: white;
+}
+
+.otryd {
+    border: 4px solid white;
+}
+
+/*//////////////////////////*/
+/*//////////////////////////*/
 
 /*FOOTER*/
 .footer {
-    height: 10vh;
+    padding: 1.8vh;
+    height: 12vh;
     color: white;
     margin-top: auto;
     background: rgb(37, 27, 78);
@@ -108,3 +181,5 @@ a {
     margin-top: 25px;
     margin-left: 25px;
 }
+/*//////////////////////////*/
+/*//////////////////////////*/
