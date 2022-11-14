@@ -79,7 +79,8 @@ a {
 }
 
 .slider-div {
-    padding-top: 4vh;
+    margin-top: 3vh;
+    padding-top: 5vh;
 }
 
 @media screen and (max-width: 980px) {
@@ -87,6 +88,11 @@ a {
         padding-top: 6vh;
     }
 }
+
+.groups-icon-vk {
+    margin-top: 2vh;
+}
+
 /*//////////////////////////*/
 /*//////////////////////////*/
 
@@ -219,6 +225,7 @@ a {
 @media screen and (min-width: 400px) and (max-width: 980px) {
     .groups-main-div {
         max-width: 85vw;
+        font-size: 1.2em;
     }
     .svyaz {
         max-height: 50vh;
