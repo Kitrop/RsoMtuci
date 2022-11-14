@@ -216,12 +216,6 @@ a {
 }
 
 
-.groups-icon-vk img{
-    width: 25px;
-    height: 25px;
-}
-
-
 @media screen and (min-width: 400px) and (max-width: 980px) {
     .groups-main-div {
         max-width: 85vw;
@@ -242,8 +236,31 @@ a {
     }
 }
 
+.groups-icon-img {
+    height: 3vh;
+}
+
 /*//////////////////////////*/
 /*//////////////////////////*/
+
+
+/*PHOTO ALBUM*/
+.section-photoalbum {
+    margin-top: 9vh;
+    height: 850px;
+}
+
+.photoalbum-img {
+    width: 80%;
+    height: 80vh;
+}
+
+@media screen and (min-width: 400px) and (max-width: 980px) {
+    .photoalbum-img {
+        width: 80%;
+        height: 30vh;
+    }
+}
 
 /*FOOTER*/
 .footer {
@@ -266,3 +283,25 @@ a {
 }
 /*//////////////////////////*/
 /*//////////////////////////*/
+
+
+/*CONTACTS*/
+.contacts-section {
+    font-size: 1.2em;
+    color: white;
+    margin-top: 50px;
+}
+
+.contacts-section h2{
+    margin-top: 25px;
+}
+
+.contacts-info {
+    margin-left: 40px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 980px) {
+    .contacts-section {
+        font-size: 1.32em;
+    }
+}
