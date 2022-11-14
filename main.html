@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" href="slick/slick-theme.css" />
-
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="page">
@@ -16,7 +16,7 @@
     <nav class="navbar navbar-nav-scroll  navbar-expand-lg"
          style="background: rgb(33,23,52);background: linear-gradient(42deg, rgba(33,23,52,1) 0%, rgba(53,39,114,1) 100%);">
         <div class="container-fluid">
-            <a class="navbar-brand navbar-font" href="#">
+            <a class="navbar-brand navbar-font" href="#back">
                 <img src="public/mon.png" alt="logo" width="155px" height="75px">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -27,7 +27,6 @@
                 <div class="navbar-nav">
                     <a class="nav-link navbar-font" aria-current="page" href="#">Главная</a>
                     <a class="nav-link navbar-font" aria-current="page" href="#">Наши отряды</a>
-                    <a class="nav-link navbar-font" href="#">История</a>
                     <a class="nav-link navbar-font" href="#">Контакты</a>
                 </div>
             </div>
@@ -83,7 +82,7 @@
     </section>
 
     <!-- SLIDER -->
-    <section class="slider-section col-12" id="back">
+    <section class="slider-section col-12"  id="back">
         <h1 class="text-center">Наши отряды</h1>
         <div class="student-groups text-center slider-div">
             <div class="slide">
@@ -107,59 +106,98 @@
 
     <!--    Отряды-->
     <section class="groups">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="otryd col-sm-12 col-lg-6 col-xl-6">
-                    <div class="text-center">
-                        <h2>СПО «Связь»</h2>
-                        <img src="public/svazist.png" class="img-fluid" width="250px" height="250px">
-                    </div>
-                    <div>
-                        <span>О отряде: Московский Педагогический Отряд @mosrso, который создан на базе МТУСИ и всегда #на_связи</span>
-                        Группа вк: <a href="https://vk.com/spo_svyaz" target="_blank">https://vk.com/spo_svyaz</a>
-                    </div>
-                </div>
-                <div class="otryd col-sm-12 col-lg-6 col-xl-6">
-                    <div class="text-center">
-                        <h2>ОСД «Путь» </h2>
-                        <img src="public/Way4.png" class="img-fluid" width="250px" height="250px">
-                    </div>
-                    <div>
-                        <span>О отряде: ОСД «Путь» - это про активных, творческих и отзывчивых людей, которые объединены общим делом. Мы создаём свою историю уже второй год и будем рады видеть в наших рядах новое поколение добровольцев.</span>
+        <div class="container-fluid text-center">
+            <div class="row groups-main-div">
+                <div class="col-xl-5 col-xxl-5 col-md-12 prymougolnik svyaz">
+                    <h2 class="groups-header">СПО «Связь»</h2>
+                    <img src="public/svazist.png" class="img-fluid groups-logo-img" alt="СПО «Связь»">
+                    <div class="groups text-start">
+                        <span>О отряде: </span>
+                        Студенческий педагогический отряд «Связь» открывает двери для новых кандидатов,
                         <br>
-                        Группа вк: <a href="https://vk.com/osd_mtuci" target="_blank">https://vk.com/osd_mtuci</a>
+                        которые уже этим летом поедут покорять детские сердца в морских и подмосковных лагерях.
+                        <br>
+                        Каждый боец знает, как тяжело сделать первый шаг.
+                        <br>
+                        Как трудно решиться кардинально поменять свою жизнь и открыть сердце чему-то новому, неизведанному.
+                        <br>
+                        Но если ты готов рискнуть и дать шанс отрядам, твоё студенчество обретёт иной смысл
+                        <br>
+                        и поможет увидеть возможности, о которых ты даже не догадывался.
                     </div>
                 </div>
-                <div class="otryd col-sm-12 col-lg-6 col-xl-6">
-                    <div class="text-center">
-                        <h2>ССервО «Контакт»</h2>
-                        <img src="public/contact1.png" class="img-fluid" width="250px" height="250px">
-                    </div>
-                    <div>
-                        <span>О отряде: Мы #ССервО – Студенческий Сервисный Отряд МосРСО, который создан на базе МТУСИ </span>
-                        Группа вк: <a href="https://vk.com/osd_mtuci" target="_blank">https://vk.com/osd_mtuci</a>
+                <div class="col-xl-5 col-xxl-5 col-md-12 prymougolnik puti">
+                    <h2 class="groups-header">ОСД «Путь»</h2>
+                    <img src="public/Way4.png" class="img-fluid groups-logo-img"  alt="ОСД «Путь»">
+                    <div class="groups text-start">
+                        <span style="font-size: 1.2em">О отряде: </span>Добровольцы, которые сделают твою зиму действительно жаркой даже
+                        <br>
+                        в самых далёких уголках России.
+                        <br>
+                        Они работают не летом, а зимой,
+                        <br>
+                        и получают в награду не деньги,
+                        <br> а нечто большее.
+                        <br>
+                        ОСД «Путь» - это про активных, творческих и отзывчивых людей,
+                        <br>
+                        которые объединены общим делом.
                     </div>
                 </div>
-                <div class="otryd col-sm-12 col-lg-6 col-xl-6">
-                    <div class="text-center">
-                        <h2>СОП "БАМ"</h2>
-                        <img src="public/bam.png" class="img-fluid" width="250px" height="250px">
+                <div class="col-xl-5 col-xxl-5 col-md-12 prymougolnik kontact">
+                    <h2 class="groups-header">ССервО «Контакт»</h2>
+                    <img src="public/contact1.png" class="img-fluid groups-logo-img" alt="ССервО «Контакт»">
+                    <div class="groups text-start">
+                        <span>О отряде: </span>
+                        Работники приемной комиссии нашего университета: общительные, методичные и драйвовые ребята.
+                        <br>
+                        С ними после рабочего дня ты точно узнаешь, что такое отрядная жизнь.
+                        <br>
+                        Студенческий Сервисный Отряд в МТУСИ - это возможность изменить своё лето
+                        <br>
+                        Мы подарим тебе новых друзей и эмоций, откроем миллионы возможностей
+                        <br>
+                        и перевернём твою жизнь всего лишь за одно лето. А ты готов измениться?
+                        <br>
+                        В приёмной комиссии есть два функционала:
+                        <br>
+                        Колл-центр - Они принимают входящие звонки и отвечают на вопросы абитуриентов.
+                        <br>
+                        Прием документов - ребята лично встречают абитуриентов в вузе, общаются и помогают им,
+                        <div class="groups-icon-vk"> <a><img src="public/VK_(service)-Black-Logo.wine.svg" alt="logo vk" style="color: #0b4182;"/></a> </div>
                     </div>
-                    <div>
-                        <span>О отряде:
-Мы – студенческий отряд проводников на базе @mosrso и @so.mtuci, созданный в ‘18 и возрождённый вновь в ‘22 году</span>
-                        Группа вк: <a href="https://vk.com/osd_mtuci" target="_blank">https://vk.com/osd_mtuci</a>
+                </div>
+                <div class="col-xl-5 col-xxl-5 col-md-12 prymougolnik bam">
+                    <h2 class="groups-header">СОП "БАМ"</h2>
+                    <img src="public/bam.png" class="img-fluid groups-logo-img" alt="СОП 'БАМ'">
+                    <div class="groups text-start">
+                        <span>О отряде: </span>
+                        Проводники, с которыми ты увидишь множество городов нашей страны
+                        <br>
+                        и по-настоящему сможешь окунуться в атмосферное студенческое лето,
+                        <br>
+                        ведь романтика поездов никого не оставит равнодушным.
+                        <br>
+                        Твоя студенческая жизнь станет яркой и незабываемой. Найдёшь единомышленников
+                        <br>
+                        и друзей на долги годы, проявишь все свои творческие способности.
+                        <br>
+                        Что ждёт тебя с нами?
+                        <br>
+                        – увлекательное прохождение школы проводников студенческих отрядов Москвы
+                        <br>
+                        – романтика дальних поездок
+                        <br>
+                        – возможность побывать в самых удаленных уголках страны и получить бесценный опыт в общении с самыми разными людьми
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <!--    FOOTER-->
-    <footer class="footer">
+    <footer class="footer ">
         <span class="footer-element">Штаб студенческих отрядов МТУСИ©</span>
-        <span class="footer-element footer-link"><a href="https://vk.com/so.mtuci"> <img
-                src="public/icons8-vk-circled.svg" width="30" height="30" style="color: white" alt="vk"> </a></span>
+        <span class="footer-element footer-link"><a href="https://vk.com/so.mtuci"> <img src="public/icons8-vk-circled.svg" width="30" height="30" style="color: white" alt="vk"> </a></span>
     </footer>
 </div>
 </body>
@@ -172,6 +210,7 @@
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 <!--slick js-->
 <script src="slick/slick.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!--main-js-->
 <script src="main.js"></script>
 

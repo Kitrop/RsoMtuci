@@ -75,7 +75,7 @@ a {
     background-size: 1920px auto;
     color: white;
     height: 500px;
-    margin-bottom: 150px;
+    margin-bottom: 3vh;
 }
 
 .slider-div {
@@ -150,13 +150,89 @@ a {
 
 /*GROUPS*/
 
+.groups-main-div {
+    margin: 0 auto;
+    max-width: 65vw;
+}
+
+.puti {
+    background: no-repeat center url("public/WayFull4.svg");
+    background-size: cover;
+    border-radius: 21px;
+    height: 90vh;
+}
+
+
+.kontact {
+    background: no-repeat center url("public/contactFull4.svg");
+    background-size: cover;
+    border-radius: 21px;
+    height: 110vh;
+}
+
+.bam {
+    background: no-repeat center url("public/bamFull4.svg");
+    background-size: cover;
+    border-radius: 21px;
+    height: 110vh;
+}
+
+.svyaz {
+    background: no-repeat center url("public/SvFull4.svg");
+    background-size: cover;
+    border-radius: 21px;
+    height: 90vh;
+}
+
+
+.prymougolnik {
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 1.1em;
+    margin-right: 3vh;
+    margin-bottom: 4vh;
+    overflow: hidden;
+}
+
 
 .groups {
     color: white;
+    margin-top: 2.6vh;
 }
 
-.otryd {
-    border: 4px solid white;
+.groups-logo-img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.groups-header {
+    margin-top: 2vh;
+}
+
+
+.groups-icon-vk img{
+    width: 25px;
+    height: 25px;
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 980px) {
+    .groups-main-div {
+        max-width: 85vw;
+    }
+    .svyaz {
+        max-height: 50vh;
+        /*max-height: 120vw;*/
+    }
+    .puti {
+        max-height: 50vh;
+    }
+    .kontact {
+        max-height: 50vh;
+    }
+    .bam {
+        max-height: 50vh;
+    }
 }
 
 /*//////////////////////////*/
