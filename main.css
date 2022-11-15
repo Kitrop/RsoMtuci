@@ -20,6 +20,12 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+@media screen and (min-width: 400px) and (max-width: 980px) {
+    .navbar-font {
+        font-size: 1.5em;
+    }
+}
+
 a {
     text-decoration: none;
 }
@@ -130,6 +136,12 @@ a {
     height: 75%;
 }
 
+@media screen and (min-width: 400px) and (min-width: 980px) {
+    .about-text {
+        font-size: 1.25em;
+    }
+}
+
 @media screen and (min-width: 400px) and (max-width: 980px) {
     .about-row {
         margin-right: 1vw;
@@ -165,7 +177,7 @@ a {
     background: no-repeat center url("public/WayFull4.svg");
     background-size: cover;
     border-radius: 21px;
-    height: 90vh;
+    height: auto;
 }
 
 
@@ -173,21 +185,21 @@ a {
     background: no-repeat center url("public/contactFull4.svg");
     background-size: cover;
     border-radius: 21px;
-    height: 110vh;
+    height: auto;
 }
 
 .bam {
     background: no-repeat center url("public/BamFul4.svg");
     background-size: cover;
     border-radius: 21px;
-    height: 110vh;
+    height: auto;
 }
 
 .svyaz {
     background: no-repeat center url("public/SvFull4.svg");
     background-size: cover;
     border-radius: 21px;
-    height: 90vh;
+    height: auto;
 }
 
 
