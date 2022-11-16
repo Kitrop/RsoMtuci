@@ -71,7 +71,7 @@ a {
 
 @media screen and (max-width: 980px) {
     .slider-section {
-        background: url("public/mobilka.webp") no-repeat center;
+        background: url("public/mobilka.jpg") no-repeat center;
         background-size: auto auto;
     }
 }
@@ -317,6 +317,7 @@ a {
     font-size: 1.2em;
     color: white;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .contacts-section h2{
@@ -334,11 +335,10 @@ a {
 }
 
 .footer-contact {
-    color: white;
+    padding-top: 6vh;
     height: 10vh;
+    color: white;
     background: linear-gradient(351deg, rgba(37, 27, 78, 1) 0%, rgba(23, 16, 37, 1) 100%);
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
