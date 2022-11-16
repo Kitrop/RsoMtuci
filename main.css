@@ -37,7 +37,7 @@ a {
 .banner {
     height: 600px;
     width: 100%;
-    background: url("public/mtuci.jpg") no-repeat center;
+    background: url("public/banner.webp") no-repeat center;
 }
 
 .banner-text {
@@ -71,13 +71,13 @@ a {
 
 @media screen and (max-width: 980px) {
     .slider-section {
-        background: url("public/mobilka.jpg") no-repeat center;
+        background: url("public/mobilka.webp") no-repeat center;
         background-size: auto auto;
     }
 }
 
 .slider-section {
-    background: url("public/gl.png") no-repeat center;
+    background: url("public/background.png") no-repeat center;
     background-size: 1920px auto;
     color: white;
     height: 500px;
@@ -236,7 +236,6 @@ a {
     }
     .svyaz {
         max-height: 50vh;
-        /*max-height: 120vw;*/
     }
     .puti {
         max-height: 50vh;
@@ -265,12 +264,12 @@ a {
 
 .photoalbum-img {
     width: 80%;
-    height: 80vh;
+    height: 75vh;
 }
 
 @media screen and (min-width: 400px) and (max-width: 980px) {
     .photoalbum-img {
-        width: 80%;
+        width: 90%;
         height: 30vh;
     }
 }
@@ -301,13 +300,12 @@ a {
 }
 
 
-
 @media screen and (min-width: 400px) and (max-width: 980px) {
     .footer-element {
         font-size: 1.7em;
     }
     .footer-icon-vk {
-        height: 50px;
+        height: 65px;
     }
 }
 /*//////////////////////////*/

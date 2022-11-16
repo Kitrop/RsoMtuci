@@ -3084,7 +3084,7 @@
       this._element.focus();
     }
     /**
-     * The following methods are used to handle overflowing modals
+     * The following methods are used to album overflowing modals
      */
 
 

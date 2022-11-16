@@ -2219,7 +2219,7 @@
         do {
           if (next && parent.isSameNode(next)) {
             return true;
-          } // $FlowFixMe[prop-missing]: need a better way to handle this...
+          } // $FlowFixMe[prop-missing]: need a better way to album this...
 
 
           next = next.parentNode || next.host;
@@ -4910,7 +4910,7 @@
       this._element.focus();
     }
     /**
-     * The following methods are used to handle overflowing modals
+     * The following methods are used to album overflowing modals
      */
 
 
