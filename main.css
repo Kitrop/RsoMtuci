@@ -293,6 +293,22 @@ a {
 .footer-element {
     margin-top: 25px;
     margin-left: 25px;
+    font-size: 1.2em;
+}
+
+.footer-icon-vk {
+    height: 30px;
+}
+
+
+
+@media screen and (min-width: 400px) and (max-width: 980px) {
+    .footer-element {
+        font-size: 1.7em;
+    }
+    .footer-icon-vk {
+        height: 50px;
+    }
 }
 /*//////////////////////////*/
 /*//////////////////////////*/
@@ -317,4 +333,18 @@ a {
     .contacts-section {
         font-size: 1.32em;
     }
+}
+
+.footer-contact {
+    color: white;
+    height: 10vh;
+    background: linear-gradient(351deg, rgba(37, 27, 78, 1) 0%, rgba(23, 16, 37, 1) 100%);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-contact a {
+    color: white;
+    text-decoration: none;
 }
