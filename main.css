@@ -133,13 +133,42 @@ a {
     margin-right: 20vw;
 }
 
+.about-div-img {
+    text-align: end;
+    height: 600px;
+}
+
 .about-img {
     height: 75%;
+    border-radius: 18px;
 }
+
+.about-text {
+    height:600px;
+    text-align: start
+}
+
+@media screen and (min-width: 400px) and (min-width: 980px) {
+    .about-div-img {
+        text-align: center;
+        height: 90%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .about-text {
+        margin-top: 15px;
+        text-align: center;
+        height: 16vh;
+    }
+}
+
 
 @media screen and (min-width: 400px) and (min-width: 980px) {
     .about-text {
         font-size: 1.25em;
+    }
+    .about-rso-section {
+        height: auto;
     }
 }
 
