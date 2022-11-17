@@ -149,6 +149,12 @@ a {
 }
 
 @media screen and (min-width: 400px) and (max-width: 980px) {
+    .about-rso-section {
+        height: 120vw;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 980px) {
     .about-div-img {
         text-align: center;
         height: 90%;
@@ -166,9 +172,6 @@ a {
 @media screen and (min-width: 400px) and (min-width: 980px) {
     .about-text {
         font-size: 1.25em;
-    }
-    .about-rso-section {
-        height: auto;
     }
 }
 
