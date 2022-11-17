@@ -250,6 +250,12 @@ a {
     margin-top: 2.6vh;
 }
 
+
+.about-p-text {
+    font-size: 0.9em;
+    margin-top: 1vh;
+}
+
 .groups-logo-img {
     width: 200px;
     height: 200px;
@@ -260,11 +266,15 @@ a {
     margin-top: 2vh;
 }
 
-.about-p-text {
-    font-size: 0.9em;
-    margin-top: 1vh;
+.content {
+    transform: translateX(-150%);
+    animation: ani 1s forwards;
 }
 
+@keyframes ani {
+    0% {transform: translateX(-150%);}
+    100% {transform: translateY(0);}
+}
 
 @media screen and (min-width: 400px) and (max-width: 980px) {
     .groups-main-div {
