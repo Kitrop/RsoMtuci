@@ -148,7 +148,7 @@ a {
     text-align: start
 }
 
-@media screen and (min-width: 400px) and (min-width: 980px) {
+@media screen and (min-width: 400px) and (max-width: 980px) {
     .about-div-img {
         text-align: center;
         height: 90%;
@@ -255,6 +255,11 @@ a {
 
 .groups-header {
     margin-top: 2vh;
+}
+
+.about-p-text {
+    font-size: 0.9em;
+    margin-top: 1vh;
 }
 
 
